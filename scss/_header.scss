@@ -1,0 +1,68 @@
+.main {
+
+    padding: 80px 2px 5px 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    background-image: url(../img/—Pngtree—big\ isolated\ vehicle\ vector\ colorful_1752653\(1\).jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+    h1 {
+        font-size: 4rem;
+        text-align:center;
+        color: $navText-color;
+        
+        span {
+            color: $violet;
+            text-transform: uppercase;
+            
+            
+        }
+        }
+
+        h2 {
+            font-size: 1rem;
+            color: $blue;
+            text-align: center;
+        }
+
+        h3 {
+            
+                text-align: center;
+                color: $teget;
+                padding-top: 180px;
+                
+                
+        }
+    
+
+  
+
+  
+}
+
+@media (min-width: 840px) {
+    .main {
+        margin-top: 60px;
+        width: 100%;
+        padding: 150px 50px 50px 20px;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+
+        h1 {
+            font-size: 6.8rem;
+            padding-bottom:1px ;
+        }
+        h3 {
+            padding: 0px;
+            font-size: 1.2rem;
+        }
+        h2 {
+            font-size: 2.5rem;
+        }
+    }
+}
